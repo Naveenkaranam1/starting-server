@@ -1,0 +1,14 @@
+GET http://localhost:4000/students/
+###
+
+GET http://localhost:4000/students/23/
+###
+
+POST http://localhost:4000/student/
+Content-Type: application/json
+
+{
+    'name' : 'jagadesh',
+    'age' : 25,
+    'score' : 86
+}
